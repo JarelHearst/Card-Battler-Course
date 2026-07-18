@@ -52,7 +52,7 @@ public class Player : MonoBehaviour
     
     private void HandlePlayerHit(int damage)
     {
-        animationController.Play("TakeHit");
+        animationController.Play("Hurt");
         health.TakeDamage(damage);
         if (!health.IsAlive())
         {

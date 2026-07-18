@@ -40,6 +40,7 @@ public class Boss : MonoBehaviour
 
     private void HandleBossHit(CardData cardData)
     {
+        animationController.Play("Hurt");
         health.TakeDamage(cardData.attackPower);
         if (!health.IsAlive())
         {

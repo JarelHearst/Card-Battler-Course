@@ -2602,7 +2602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Flash
   flashColor: {r: 1, g: 0, b: 0, a: 1}
-  flashDuration: 0
+  flashDuration: 0.2
 --- !u!1 &2021386723
 GameObject:
   m_ObjectHideFlags: 0
