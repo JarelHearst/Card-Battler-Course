@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13d46c7e929ce949bebd998c5a90cfb, type: 3}
+  m_Name: DefaultDeck
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultDeck
+  cards:
+  - {fileID: 11400000, guid: 1b1a70247f231de40a90e2ae98e8d29e, type: 2}
+  - {fileID: 11400000, guid: ecdeb1d8db1cb424886087560efd319c, type: 2}
+  - {fileID: 11400000, guid: f98ddb07a97ae6743b7d0958913ec342, type: 2}
+  - {fileID: 11400000, guid: 5ca50ec150c467a4eb348f214ff0f4aa, type: 2}

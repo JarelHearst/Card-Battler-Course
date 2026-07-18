@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd6437772f44144bb5765c074387e39, type: 3}
+  m_Name: SuperAttack
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  illustration: {fileID: 3504339129578956549, guid: 232fed7cfc888174ca33be564891532f, type: 3}
+  cardName: SuperAttack
+  description: Deals 8 damage.
+  actionCost: 3
+  attackPower: 8
+  healPower: 0
