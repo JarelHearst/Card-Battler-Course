@@ -17,6 +17,8 @@ public class CardData : ScriptableObject
 
     public int healPower;
 
+    public bool isDoubleAttack;
+
 }
 
 

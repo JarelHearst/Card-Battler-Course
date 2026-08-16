@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -39,9 +40,9 @@ public class Player : MonoBehaviour
     
     private void HandleCardPlayed(CardData cardData)
     {
-        if(cardData.attackPower > 0)
-        {
-            Attack(cardData);
+        if(cardData.attackPower > 0 )
+        {   
+            Attack(cardData);       
         }
 
         if(cardData.healPower > 0)
@@ -91,8 +92,15 @@ public class Player : MonoBehaviour
             timeElapsed += Time.deltaTime;
             yield return null;
         }
+        if (cardData.isDoubleAttack)
+        {
+            animationController.Play("DoubleAttack");
+        }
 
-        animationController.Play("Attack");
+        else
+        {   
+            animationController.Play("Attack");
+        }
         BossEvents.BossHit(cardData);
         yield return new WaitForSeconds(.5f);
         timeElapsed = 0f;

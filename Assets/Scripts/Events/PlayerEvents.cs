@@ -13,6 +13,8 @@ public class PlayerEvents : MonoBehaviour
 
     public static event Action OnAttackComplete;
 
+    public static event Action OnDoubleAttackComplete;
+
     public static event Action OnDrawCardRequested;
 
     public static event Action OnReshuffleRequested;
@@ -35,6 +37,11 @@ public class PlayerEvents : MonoBehaviour
     public static void AttackComplete()
     {
         OnAttackComplete?.Invoke();
+    }
+
+    public static void DoubleAttackComplete()
+    {
+        OnDoubleAttackComplete?.Invoke();
     }
     
     public static void PlayerHeal()
